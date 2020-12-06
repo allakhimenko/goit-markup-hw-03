@@ -1,0 +1,203 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+ --primary-text-color: #757575;
+ --primary-white-color: #ffffff;
+ --title-text-color: #212121;
+ --accent-color: #2196F3;
+ --primary-background-color: #2F303A;
+ --secoundary-background-color: #F5F4FA;
+}
+
+/*Шапка сайта*/
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.web{color: var(--accent-color);}
+
+li{list-style-type: none;}
+
+a{text-decoration: none;}
+
+.nav-links a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.nav-links a:visited{
+    color: var(--title-text-color)
+}
+
+.nav-links a:hover,
+.nav-links a:focus{
+    color: var(--accent-color);
+}
+
+.contacts a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+
+.contacts a:hover,
+.contacts a:focus{
+    color: var(--accent-color);
+}
+
+/*Главный баннер*/
+.hero-title{
+    width: 696px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+} 
+
+.hero{background-color: var(--primary-background-color);}
+
+.button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/*Особенности*/
+.feature-title{
+    visibility: hidden;
+}
+
+.features h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.features p{
+    width: 270px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*Что мы делаем*/
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/*Наша команда*/
+.cards h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.cards p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.cards{background-color: var(--secoundary-background-color);}
+
+/*Футер*/
+.bottom-line{
+    background-color: #2F303A;
+}
+
+.bottom-logo{color: #ffffff}
+
+.address-location{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--primary-white-color);
+}
+
+.address-contacts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*Портфолио*/
+.portfolio-title{visibility: hidden;}
+
+/*Кнопки портфолио*/
+.p-button{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--secoundary-background-color);
+    border-color: var(--secoundary-background-color);
+}
+
+.p-button:hover{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/*Проекты портфолио*/
+.projects h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color)
+}
+
+.projects p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
