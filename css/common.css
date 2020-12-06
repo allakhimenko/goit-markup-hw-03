@@ -28,7 +28,7 @@ li{list-style-type: none;}
 
 a{text-decoration: none;}
 
-.nav-links a{
+.nav-links .link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -36,12 +36,10 @@ a{text-decoration: none;}
     color: var(--title-text-color);
 }
 
-.nav-links a:visited{
-    color: var(--title-text-color)
-}
+.nav-links .common{color: var(--accent-color);}
 
-.nav-links a:hover,
-.nav-links a:focus{
+.nav-links .link:hover,
+.nav-links .link:focus{
     color: var(--accent-color);
 }
 
