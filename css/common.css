@@ -138,7 +138,7 @@ a{text-decoration: none;}
 
 /*Футер*/
 .bottom-line{
-    background-color: #2F303A;
+    background-color: var(--primary-background-color);
 }
 
 .bottom-logo{color: #ffffff}
@@ -177,7 +177,8 @@ a{text-decoration: none;}
     border-color: var(--secoundary-background-color);
 }
 
-.p-button:hover{
+.p-button:hover,
+.p-button:focus{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     border-color: var(--accent-color);
