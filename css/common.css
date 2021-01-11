@@ -345,10 +345,17 @@ address > a{
 
 .projects .project-item{
     margin-right: 30px;
+    margin-bottom: 30px;
+    height: 404px;
+    background-color:var(--primary-white-color);
 }
 
 .projects .project-item:nth-of-type(3n){
     margin-right: 0;
+}
+
+.projects .project-item:nth-last-child(-n + 3){
+    margin-bottom: 0;
 }
 
 .projects h2{
