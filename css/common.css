@@ -321,7 +321,8 @@ address > a{
 
 /*Портфолио*/
 .portfolio{
-    padding: 94px 200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-title{display: none;}
